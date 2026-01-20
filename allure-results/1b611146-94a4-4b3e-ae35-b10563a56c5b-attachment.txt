@@ -1,0 +1,10 @@
+INFO     api.base_client:base_client.py:48 Request: GET https://jsonplaceholder.typicode.com/posts/5
+DEBUG    api.base_client:base_client.py:52 Request params: None
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "GET /posts/5 HTTP/1.1" 200 None
+INFO     api.base_client:base_client.py:60 Response: 200 OK
+DEBUG    api.base_client:base_client.py:61 Response body: {
+  "userId": 1,
+  "id": 5,
+  "title": "nesciunt quas odio",
+  "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+}

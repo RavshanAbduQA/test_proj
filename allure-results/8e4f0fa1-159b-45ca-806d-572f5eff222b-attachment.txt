@@ -1,0 +1,28 @@
+INFO     api.base_client:base_client.py:48 Request: GET https://jsonplaceholder.typicode.com/users
+DEBUG    api.base_client:base_client.py:52 Request params: None
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "GET /users HTTP/1.1" 200 1847
+INFO     api.base_client:base_client.py:60 Response: 200 OK
+DEBUG    api.base_client:base_client.py:61 Response body: [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-
+INFO     conftest:conftest.py:38 UsersAPI client closed
+INFO     conftest:conftest.py:52 CommentsAPI client closed
+INFO     conftest:conftest.py:24 PostsAPI client closed

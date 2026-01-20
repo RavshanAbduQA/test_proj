@@ -1,0 +1,960 @@
+2026-01-19 17:39:28 [INFO] [conftest.py:20] Creating PostsAPI client
+2026-01-19 17:39:28 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/1/comments
+2026-01-19 17:39:28 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:28 [DEBUG] [connectionpool.py:1049] Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+2026-01-19 17:39:29 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/1/comments HTTP/1.1" 200 657
+2026-01-19 17:39:29 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:29 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 1,
+    "id": 1,
+    "name": "id labore ex et quam laborum",
+    "email": "Eliseo@gardner.biz",
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+  },
+  {
+    "postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occa
+2026-01-19 17:39:29 [INFO] [conftest.py:48] Creating CommentsAPI client
+2026-01-19 17:39:29 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments
+2026-01-19 17:39:29 [DEBUG] [base_client.py:52] Request params: {'postId': 1}
+2026-01-19 17:39:29 [DEBUG] [connectionpool.py:1049] Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+2026-01-19 17:39:29 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments?postId=1 HTTP/1.1" 200 657
+2026-01-19 17:39:29 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:29 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 1,
+    "id": 1,
+    "name": "id labore ex et quam laborum",
+    "email": "Eliseo@gardner.biz",
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+  },
+  {
+    "postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occa
+2026-01-19 17:39:29 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments
+2026-01-19 17:39:29 [DEBUG] [base_client.py:52] Request params: {'postId': 1}
+2026-01-19 17:39:29 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments?postId=1 HTTP/1.1" 200 657
+2026-01-19 17:39:29 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:29 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 1,
+    "id": 1,
+    "name": "id labore ex et quam laborum",
+    "email": "Eliseo@gardner.biz",
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+  },
+  {
+    "postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occa
+2026-01-19 17:39:29 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/1/comments
+2026-01-19 17:39:29 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:29 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/1/comments HTTP/1.1" 200 657
+2026-01-19 17:39:29 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:29 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 1,
+    "id": 1,
+    "name": "id labore ex et quam laborum",
+    "email": "Eliseo@gardner.biz",
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+  },
+  {
+    "postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occa
+2026-01-19 17:39:29 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/2/comments
+2026-01-19 17:39:29 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/2/comments HTTP/1.1" 200 676
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 2,
+    "id": 6,
+    "name": "et fugit eligendi deleniti quidem qui sint nihil autem",
+    "email": "Presley.Mueller@myrl.com",
+    "body": "doloribus at sed quis culpa deserunt consectetur qui praesentium\naccusamus fugiat dicta\nvoluptatem rerum ut voluptate autem\nvoluptatem repellendus aspernatur dolorem in"
+  },
+  {
+    "postId": 2,
+    "id": 7,
+    "name": "repellat consequatur praesentium vel minus molestias voluptatum",
+    "email": "Dallas@ole.me",
+    "body": "maiore
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/3/comments
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/3/comments HTTP/1.1" 200 None
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 3,
+    "id": 11,
+    "name": "fugit labore quia mollitia quas deserunt nostrum sunt",
+    "email": "Veronica_Goodwin@timmothy.net",
+    "body": "ut dolorum nostrum id quia aut est\nfuga est inventore vel eligendi explicabo quis consectetur\naut occaecati repellat id natus quo est\nut blanditiis quia ut vel ut maiores ea"
+  },
+  {
+    "postId": 3,
+    "id": 12,
+    "name": "modi ut eos dolores illum nam dolor",
+    "email": "Oswald.Vandervort@leanne.org",
+    "body": "expedita
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/1
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/1 HTTP/1.1" 200 None
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: {'postId': 1}
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments?postId=1 HTTP/1.1" 200 657
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 1,
+    "id": 1,
+    "name": "id labore ex et quam laborum",
+    "email": "Eliseo@gardner.biz",
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+  },
+  {
+    "postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occa
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/1/comments
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/1/comments HTTP/1.1" 200 657
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 1,
+    "id": 1,
+    "name": "id labore ex et quam laborum",
+    "email": "Eliseo@gardner.biz",
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+  },
+  {
+    "postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occa
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/2/comments
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/2/comments HTTP/1.1" 200 676
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 2,
+    "id": 6,
+    "name": "et fugit eligendi deleniti quidem qui sint nihil autem",
+    "email": "Presley.Mueller@myrl.com",
+    "body": "doloribus at sed quis culpa deserunt consectetur qui praesentium\naccusamus fugiat dicta\nvoluptatem rerum ut voluptate autem\nvoluptatem repellendus aspernatur dolorem in"
+  },
+  {
+    "postId": 2,
+    "id": 7,
+    "name": "repellat consequatur praesentium vel minus molestias voluptatum",
+    "email": "Dallas@ole.me",
+    "body": "maiore
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/3/comments
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/3/comments HTTP/1.1" 200 None
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 3,
+    "id": 11,
+    "name": "fugit labore quia mollitia quas deserunt nostrum sunt",
+    "email": "Veronica_Goodwin@timmothy.net",
+    "body": "ut dolorum nostrum id quia aut est\nfuga est inventore vel eligendi explicabo quis consectetur\naut occaecati repellat id natus quo est\nut blanditiis quia ut vel ut maiores ea"
+  },
+  {
+    "postId": 3,
+    "id": 12,
+    "name": "modi ut eos dolores illum nam dolor",
+    "email": "Oswald.Vandervort@leanne.org",
+    "body": "expedita
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/5/comments
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/5/comments HTTP/1.1" 200 687
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 5,
+    "id": 21,
+    "name": "aliquid rerum mollitia qui a consectetur eum sed",
+    "email": "Noemie@marques.me",
+    "body": "deleniti aut sed molestias explicabo\ncommodi odio ratione nesciunt\nvoluptate doloremque est\nnam autem error delectus"
+  },
+  {
+    "postId": 5,
+    "id": 22,
+    "name": "porro repellendus aut tempore quis hic",
+    "email": "Khalil@emile.co.uk",
+    "body": "qui ipsa animi nostrum praesentium voluptatibus odit\nqui non impedit cum qui nostrum ali
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments/1
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments/1 HTTP/1.1" 200 None
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments/1
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:30 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments/1 HTTP/1.1" 200 None
+2026-01-19 17:39:30 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:30 [DEBUG] [base_client.py:61] Response body: {
+  "postId": 1,
+  "id": 1,
+  "name": "id labore ex et quam laborum",
+  "email": "Eliseo@gardner.biz",
+  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+2026-01-19 17:39:30 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments/5
+2026-01-19 17:39:30 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:31 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments/5 HTTP/1.1" 200 None
+2026-01-19 17:39:31 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:31 [DEBUG] [base_client.py:61] Response body: {
+  "postId": 1,
+  "id": 5,
+  "name": "vero eaque aliquid doloribus et culpa",
+  "email": "Hayden@althea.biz",
+  "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et"
+}
+2026-01-19 17:39:31 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments/10
+2026-01-19 17:39:31 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:31 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments/10 HTTP/1.1" 200 None
+2026-01-19 17:39:31 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:31 [DEBUG] [base_client.py:61] Response body: {
+  "postId": 2,
+  "id": 10,
+  "name": "eaque et deleniti atque tenetur ut quo ut",
+  "email": "Carmen_Keeling@caroline.name",
+  "body": "voluptate iusto quis nobis reprehenderit ipsum amet nulla\nquia quas dolores velit et non\naut quia necessitatibus\nnostrum quaerat nulla et accusamus nisi facilis"
+}
+2026-01-19 17:39:31 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments/50
+2026-01-19 17:39:31 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:31 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments/50 HTTP/1.1" 200 None
+2026-01-19 17:39:31 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:31 [DEBUG] [base_client.py:61] Response body: {
+  "postId": 10,
+  "id": 50,
+  "name": "dolorum soluta quidem ex quae occaecati dicta aut doloribus",
+  "email": "Kiana_Predovic@yasmin.io",
+  "body": "eum accusamus aut delectus\narchitecto blanditiis quia sunt\nrerum harum sit quos quia aspernatur vel corrupti inventore\nanimi dicta vel corporis"
+}
+2026-01-19 17:39:31 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments/100
+2026-01-19 17:39:31 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:31 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments/100 HTTP/1.1" 200 None
+2026-01-19 17:39:31 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:31 [DEBUG] [base_client.py:61] Response body: {
+  "postId": 20,
+  "id": 100,
+  "name": "et sint quia dolor et est ea nulla cum",
+  "email": "Leone_Fay@orrin.com",
+  "body": "architecto dolorem ab explicabo et provident et\net eos illo omnis mollitia ex aliquam\natque ut ipsum nulla nihil\nquis voluptas aut debitis facilis"
+}
+2026-01-19 17:39:31 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/comments
+2026-01-19 17:39:31 [DEBUG] [base_client.py:52] Request params: {'postId': 1}
+2026-01-19 17:39:31 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /comments?postId=1 HTTP/1.1" 200 657
+2026-01-19 17:39:31 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:31 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "postId": 1,
+    "id": 1,
+    "name": "id labore ex et quam laborum",
+    "email": "Eliseo@gardner.biz",
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+  },
+  {
+    "postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occa
+2026-01-19 17:39:31 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts
+2026-01-19 17:39:31 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:31 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts HTTP/1.1" 200 None
+2026-01-19 17:39:31 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:31 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate p
+2026-01-19 17:39:31 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/1
+2026-01-19 17:39:31 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:31 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/1 HTTP/1.1" 200 None
+2026-01-19 17:39:31 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:31 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-01-19 17:39:31 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/99999
+2026-01-19 17:39:31 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:31 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/99999 HTTP/1.1" 404 None
+2026-01-19 17:39:31 [INFO] [base_client.py:60] Response: 404 Not Found
+2026-01-19 17:39:31 [DEBUG] [base_client.py:61] Response body: {}
+2026-01-19 17:39:31 [INFO] [base_client.py:48] Request: POST https://jsonplaceholder.typicode.com/posts
+2026-01-19 17:39:31 [DEBUG] [base_client.py:50] Request body: {'userId': 1, 'title': 'Test Post Title', 'body': 'Test post body content'}
+2026-01-19 17:39:32 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "POST /posts HTTP/1.1" 201 96
+2026-01-19 17:39:32 [INFO] [base_client.py:60] Response: 201 Created
+2026-01-19 17:39:32 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "title": "Test Post Title",
+  "body": "Test post body content",
+  "id": 101
+}
+2026-01-19 17:39:32 [INFO] [base_client.py:48] Request: PUT https://jsonplaceholder.typicode.com/posts/1
+2026-01-19 17:39:32 [DEBUG] [base_client.py:50] Request body: {'userId': 1, 'id': 1, 'title': 'Updated Title', 'body': 'Updated body content'}
+2026-01-19 17:39:32 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "PUT /posts/1 HTTP/1.1" 200 None
+2026-01-19 17:39:32 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:32 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "id": 1,
+  "title": "Updated Title",
+  "body": "Updated body content"
+}
+2026-01-19 17:39:32 [INFO] [base_client.py:48] Request: DELETE https://jsonplaceholder.typicode.com/posts/1
+2026-01-19 17:39:32 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "DELETE /posts/1 HTTP/1.1" 200 None
+2026-01-19 17:39:32 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:32 [DEBUG] [base_client.py:61] Response body: {}
+2026-01-19 17:39:32 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/1
+2026-01-19 17:39:32 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:32 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/1 HTTP/1.1" 200 None
+2026-01-19 17:39:32 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:32 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-01-19 17:39:32 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/2
+2026-01-19 17:39:32 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:32 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/2 HTTP/1.1" 200 None
+2026-01-19 17:39:32 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:32 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+2026-01-19 17:39:32 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/3
+2026-01-19 17:39:32 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:32 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/3 HTTP/1.1" 200 None
+2026-01-19 17:39:32 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:32 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "id": 3,
+  "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+  "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+}
+2026-01-19 17:39:32 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/5
+2026-01-19 17:39:32 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:32 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/5 HTTP/1.1" 200 None
+2026-01-19 17:39:32 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:32 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "id": 5,
+  "title": "nesciunt quas odio",
+  "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+}
+2026-01-19 17:39:32 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts/10
+2026-01-19 17:39:32 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:32 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts/10 HTTP/1.1" 200 None
+2026-01-19 17:39:32 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:32 [DEBUG] [base_client.py:61] Response body: {
+  "userId": 1,
+  "id": 10,
+  "title": "optio molestias id quia eum",
+  "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+}
+2026-01-19 17:39:32 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts
+2026-01-19 17:39:32 [DEBUG] [base_client.py:52] Request params: {'userId': 1}
+2026-01-19 17:39:33 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts?userId=1 HTTP/1.1" 200 1002
+2026-01-19 17:39:33 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:33 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate p
+2026-01-19 17:39:33 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts
+2026-01-19 17:39:33 [DEBUG] [base_client.py:52] Request params: {'userId': 2}
+2026-01-19 17:39:33 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts?userId=2 HTTP/1.1" 200 1020
+2026-01-19 17:39:33 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:33 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "userId": 2,
+    "id": 11,
+    "title": "et ea vero quia laudantium autem",
+    "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+  },
+  {
+    "userId": 2,
+    "id": 12,
+    "title": "in quibusdam tempore odit est dolorem",
+    "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptat
+2026-01-19 17:39:33 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/posts
+2026-01-19 17:39:33 [DEBUG] [base_client.py:52] Request params: {'userId': 3}
+2026-01-19 17:39:33 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /posts?userId=3 HTTP/1.1" 200 1006
+2026-01-19 17:39:33 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:33 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "userId": 3,
+    "id": 21,
+    "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
+    "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"
+  },
+  {
+    "userId": 3,
+    "id": 22,
+    "title": "dolor sint quo a velit explicabo quia nam",
+    "body": "eos qui et ipsum ipsam suscipit aut\nsed omnis non odio\nexpedita earum mollitia molestiae aut atqu
+2026-01-19 17:39:33 [INFO] [conftest.py:34] Creating UsersAPI client
+2026-01-19 17:39:33 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users
+2026-01-19 17:39:33 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:33 [DEBUG] [connectionpool.py:1049] Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+2026-01-19 17:39:33 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users HTTP/1.1" 200 1847
+2026-01-19 17:39:33 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:33 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-
+2026-01-19 17:39:33 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users
+2026-01-19 17:39:33 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:33 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users HTTP/1.1" 200 1847
+2026-01-19 17:39:33 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:33 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-
+2026-01-19 17:39:33 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/1
+2026-01-19 17:39:33 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:33 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/1 HTTP/1.1" 200 None
+2026-01-19 17:39:33 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:33 [DEBUG] [base_client.py:61] Response body: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-01-19 17:39:33 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/1
+2026-01-19 17:39:33 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/1 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/1
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/1 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/2
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/2 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chai
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/3
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/3 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 3,
+  "name": "Clementine Bauch",
+  "username": "Samantha",
+  "email": "Nathan@yesenia.net",
+  "address": {
+    "street": "Douglas Extension",
+    "suite": "Suite 847",
+    "city": "McKenziehaven",
+    "zipcode": "59590-4157",
+    "geo": {
+      "lat": "-68.6102",
+      "lng": "-47.0653"
+    }
+  },
+  "phone": "1-463-123-4447",
+  "website": "ramiro.info",
+  "company": {
+    "name": "Romaguera-Jacobson",
+    "catchPhrase": "Face to face bifurcated interface",
+    "bs": "e-enable strategic
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/5
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/5 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 5,
+  "name": "Chelsey Dietrich",
+  "username": "Kamren",
+  "email": "Lucio_Hettinger@annie.ca",
+  "address": {
+    "street": "Skiles Walks",
+    "suite": "Suite 351",
+    "city": "Roscoeview",
+    "zipcode": "33263",
+    "geo": {
+      "lat": "-31.8129",
+      "lng": "62.5342"
+    }
+  },
+  "phone": "(254)954-1289",
+  "website": "demarco.info",
+  "company": {
+    "name": "Keebler LLC",
+    "catchPhrase": "User-centric fault-tolerant solution",
+    "bs": "revolutionize end-to-end systems
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/1
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/1 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/1
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/1 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/2
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/2 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 2,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "email": "Shanna@melissa.tv",
+  "address": {
+    "street": "Victor Plains",
+    "suite": "Suite 879",
+    "city": "Wisokyburgh",
+    "zipcode": "90566-7771",
+    "geo": {
+      "lat": "-43.9509",
+      "lng": "-34.4618"
+    }
+  },
+  "phone": "010-692-6593 x09125",
+  "website": "anastasia.net",
+  "company": {
+    "name": "Deckow-Crist",
+    "catchPhrase": "Proactive didactic contingency",
+    "bs": "synergize scalable supply-chai
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/3
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/3 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 3,
+  "name": "Clementine Bauch",
+  "username": "Samantha",
+  "email": "Nathan@yesenia.net",
+  "address": {
+    "street": "Douglas Extension",
+    "suite": "Suite 847",
+    "city": "McKenziehaven",
+    "zipcode": "59590-4157",
+    "geo": {
+      "lat": "-68.6102",
+      "lng": "-47.0653"
+    }
+  },
+  "phone": "1-463-123-4447",
+  "website": "ramiro.info",
+  "company": {
+    "name": "Romaguera-Jacobson",
+    "catchPhrase": "Face to face bifurcated interface",
+    "bs": "e-enable strategic
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/4
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:34 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/4 HTTP/1.1" 200 None
+2026-01-19 17:39:34 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:34 [DEBUG] [base_client.py:61] Response body: {
+  "id": 4,
+  "name": "Patricia Lebsack",
+  "username": "Karianne",
+  "email": "Julianne.OConner@kory.org",
+  "address": {
+    "street": "Hoeger Mall",
+    "suite": "Apt. 692",
+    "city": "South Elvis",
+    "zipcode": "53919-4257",
+    "geo": {
+      "lat": "29.4572",
+      "lng": "-164.2990"
+    }
+  },
+  "phone": "493-170-9623 x156",
+  "website": "kale.biz",
+  "company": {
+    "name": "Robel-Corkery",
+    "catchPhrase": "Multi-tiered zero tolerance productivity",
+    "bs": "transition cutting
+2026-01-19 17:39:34 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/5
+2026-01-19 17:39:34 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:35 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/5 HTTP/1.1" 200 None
+2026-01-19 17:39:35 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:35 [DEBUG] [base_client.py:61] Response body: {
+  "id": 5,
+  "name": "Chelsey Dietrich",
+  "username": "Kamren",
+  "email": "Lucio_Hettinger@annie.ca",
+  "address": {
+    "street": "Skiles Walks",
+    "suite": "Suite 351",
+    "city": "Roscoeview",
+    "zipcode": "33263",
+    "geo": {
+      "lat": "-31.8129",
+      "lng": "62.5342"
+    }
+  },
+  "phone": "(254)954-1289",
+  "website": "demarco.info",
+  "company": {
+    "name": "Keebler LLC",
+    "catchPhrase": "User-centric fault-tolerant solution",
+    "bs": "revolutionize end-to-end systems
+2026-01-19 17:39:35 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/6
+2026-01-19 17:39:35 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:35 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/6 HTTP/1.1" 200 None
+2026-01-19 17:39:35 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:35 [DEBUG] [base_client.py:61] Response body: {
+  "id": 6,
+  "name": "Mrs. Dennis Schulist",
+  "username": "Leopoldo_Corkery",
+  "email": "Karley_Dach@jasper.info",
+  "address": {
+    "street": "Norberto Crossing",
+    "suite": "Apt. 950",
+    "city": "South Christy",
+    "zipcode": "23505-1337",
+    "geo": {
+      "lat": "-71.4197",
+      "lng": "71.7478"
+    }
+  },
+  "phone": "1-477-935-8478 x6430",
+  "website": "ola.org",
+  "company": {
+    "name": "Considine-Lockman",
+    "catchPhrase": "Synchronised bottom-line interface",
+    "bs": "e
+2026-01-19 17:39:35 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/7
+2026-01-19 17:39:35 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:35 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/7 HTTP/1.1" 200 None
+2026-01-19 17:39:35 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:35 [DEBUG] [base_client.py:61] Response body: {
+  "id": 7,
+  "name": "Kurtis Weissnat",
+  "username": "Elwyn.Skiles",
+  "email": "Telly.Hoeger@billy.biz",
+  "address": {
+    "street": "Rex Trail",
+    "suite": "Suite 280",
+    "city": "Howemouth",
+    "zipcode": "58804-1099",
+    "geo": {
+      "lat": "24.8918",
+      "lng": "21.8984"
+    }
+  },
+  "phone": "210.067.6132",
+  "website": "elvis.io",
+  "company": {
+    "name": "Johns Group",
+    "catchPhrase": "Configurable multimedia task-force",
+    "bs": "generate enterprise e-tailers"
+  }
+}
+2026-01-19 17:39:35 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/8
+2026-01-19 17:39:35 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:35 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/8 HTTP/1.1" 200 None
+2026-01-19 17:39:35 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:35 [DEBUG] [base_client.py:61] Response body: {
+  "id": 8,
+  "name": "Nicholas Runolfsdottir V",
+  "username": "Maxime_Nienow",
+  "email": "Sherwood@rosamond.me",
+  "address": {
+    "street": "Ellsworth Summit",
+    "suite": "Suite 729",
+    "city": "Aliyaview",
+    "zipcode": "45169",
+    "geo": {
+      "lat": "-14.3990",
+      "lng": "-120.7677"
+    }
+  },
+  "phone": "586.493.6943 x140",
+  "website": "jacynthe.com",
+  "company": {
+    "name": "Abernathy Group",
+    "catchPhrase": "Implemented secondary concept",
+    "bs": "e-enable extens
+2026-01-19 17:39:35 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/9
+2026-01-19 17:39:35 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:35 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/9 HTTP/1.1" 200 None
+2026-01-19 17:39:35 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:35 [DEBUG] [base_client.py:61] Response body: {
+  "id": 9,
+  "name": "Glenna Reichert",
+  "username": "Delphine",
+  "email": "Chaim_McDermott@dana.io",
+  "address": {
+    "street": "Dayna Park",
+    "suite": "Suite 449",
+    "city": "Bartholomebury",
+    "zipcode": "76495-3109",
+    "geo": {
+      "lat": "24.6463",
+      "lng": "-168.8889"
+    }
+  },
+  "phone": "(775)976-6794 x41206",
+  "website": "conrad.com",
+  "company": {
+    "name": "Yost and Sons",
+    "catchPhrase": "Switchable contextually-based project",
+    "bs": "aggregate real-t
+2026-01-19 17:39:35 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users/10
+2026-01-19 17:39:35 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:35 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users/10 HTTP/1.1" 200 None
+2026-01-19 17:39:35 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:35 [DEBUG] [base_client.py:61] Response body: {
+  "id": 10,
+  "name": "Clementina DuBuque",
+  "username": "Moriah.Stanton",
+  "email": "Rey.Padberg@karina.biz",
+  "address": {
+    "street": "Kattie Turnpike",
+    "suite": "Suite 198",
+    "city": "Lebsackbury",
+    "zipcode": "31428-2261",
+    "geo": {
+      "lat": "-38.2386",
+      "lng": "57.2232"
+    }
+  },
+  "phone": "024-648-3804",
+  "website": "ambrose.net",
+  "company": {
+    "name": "Hoeger LLC",
+    "catchPhrase": "Centralized empowering task-force",
+    "bs": "target end-to-end mo
+2026-01-19 17:39:35 [INFO] [base_client.py:48] Request: GET https://jsonplaceholder.typicode.com/users
+2026-01-19 17:39:35 [DEBUG] [base_client.py:52] Request params: None
+2026-01-19 17:39:35 [DEBUG] [connectionpool.py:544] https://jsonplaceholder.typicode.com:443 "GET /users HTTP/1.1" 200 1847
+2026-01-19 17:39:35 [INFO] [base_client.py:60] Response: 200 OK
+2026-01-19 17:39:35 [DEBUG] [base_client.py:61] Response body: [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-
+2026-01-19 17:39:35 [INFO] [conftest.py:38] UsersAPI client closed
+2026-01-19 17:39:35 [INFO] [conftest.py:52] CommentsAPI client closed
+2026-01-19 17:39:35 [INFO] [conftest.py:24] PostsAPI client closed
+2026-01-19 17:39:35 [INFO] [conftest.py:123] ================================================================================
+2026-01-19 17:39:35 [INFO] [conftest.py:124] Test session finished with status: 0
+2026-01-19 17:39:35 [INFO] [conftest.py:125] ================================================================================
+==========================================================

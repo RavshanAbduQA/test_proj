@@ -1,0 +1,10 @@
+INFO     api.base_client:base_client.py:48 Request: POST https://jsonplaceholder.typicode.com/posts
+DEBUG    api.base_client:base_client.py:50 Request body: {'userId': 1, 'title': 'Test Post Title', 'body': 'Test post body content'}
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "POST /posts HTTP/1.1" 201 96
+INFO     api.base_client:base_client.py:60 Response: 201 Created
+DEBUG    api.base_client:base_client.py:61 Response body: {
+  "userId": 1,
+  "title": "Test Post Title",
+  "body": "Test post body content",
+  "id": 101
+}

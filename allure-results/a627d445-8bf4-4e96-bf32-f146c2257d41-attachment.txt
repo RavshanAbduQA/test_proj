@@ -1,0 +1,3 @@
+2026-01-19 17:39:35 [INFO] conftest: UsersAPI client closed
+2026-01-19 17:39:35 [INFO] conftest: CommentsAPI client closed
+2026-01-19 17:39:35 [INFO] conftest: PostsAPI client closed

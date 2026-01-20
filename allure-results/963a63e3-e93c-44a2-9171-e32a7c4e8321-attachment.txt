@@ -1,0 +1,5 @@
+INFO     api.base_client:base_client.py:48 Request: GET https://jsonplaceholder.typicode.com/posts/99999
+DEBUG    api.base_client:base_client.py:52 Request params: None
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "GET /posts/99999 HTTP/1.1" 404 None
+INFO     api.base_client:base_client.py:60 Response: 404 Not Found
+DEBUG    api.base_client:base_client.py:61 Response body: {}
