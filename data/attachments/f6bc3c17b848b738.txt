@@ -1,0 +1,4 @@
+INFO     api.base_client:base_client.py:48 Request: DELETE https://jsonplaceholder.typicode.com/posts/1
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "DELETE /posts/1 HTTP/1.1" 200 None
+INFO     api.base_client:base_client.py:60 Response: 200 OK
+DEBUG    api.base_client:base_client.py:61 Response body: {}

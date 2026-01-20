@@ -1,0 +1,18 @@
+INFO     api.base_client:base_client.py:48 Request: GET https://jsonplaceholder.typicode.com/posts/5/comments
+DEBUG    api.base_client:base_client.py:52 Request params: None
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "GET /posts/5/comments HTTP/1.1" 200 687
+INFO     api.base_client:base_client.py:60 Response: 200 OK
+DEBUG    api.base_client:base_client.py:61 Response body: [
+  {
+    "postId": 5,
+    "id": 21,
+    "name": "aliquid rerum mollitia qui a consectetur eum sed",
+    "email": "Noemie@marques.me",
+    "body": "deleniti aut sed molestias explicabo\ncommodi odio ratione nesciunt\nvoluptate doloremque est\nnam autem error delectus"
+  },
+  {
+    "postId": 5,
+    "id": 22,
+    "name": "porro repellendus aut tempore quis hic",
+    "email": "Khalil@emile.co.uk",
+    "body": "qui ipsa animi nostrum praesentium voluptatibus odit\nqui non impedit cum qui nostrum ali

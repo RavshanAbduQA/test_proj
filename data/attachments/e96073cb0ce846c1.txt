@@ -1,0 +1,25 @@
+INFO     api.base_client:base_client.py:48 Request: GET https://jsonplaceholder.typicode.com/users/8
+DEBUG    api.base_client:base_client.py:52 Request params: None
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://jsonplaceholder.typicode.com:443 "GET /users/8 HTTP/1.1" 200 None
+INFO     api.base_client:base_client.py:60 Response: 200 OK
+DEBUG    api.base_client:base_client.py:61 Response body: {
+  "id": 8,
+  "name": "Nicholas Runolfsdottir V",
+  "username": "Maxime_Nienow",
+  "email": "Sherwood@rosamond.me",
+  "address": {
+    "street": "Ellsworth Summit",
+    "suite": "Suite 729",
+    "city": "Aliyaview",
+    "zipcode": "45169",
+    "geo": {
+      "lat": "-14.3990",
+      "lng": "-120.7677"
+    }
+  },
+  "phone": "586.493.6943 x140",
+  "website": "jacynthe.com",
+  "company": {
+    "name": "Abernathy Group",
+    "catchPhrase": "Implemented secondary concept",
+    "bs": "e-enable extens
